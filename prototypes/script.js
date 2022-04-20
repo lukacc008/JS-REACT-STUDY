@@ -37,7 +37,7 @@ Person.prototype.calcAge = function () {
 //////UNUTAR FUNKCIJE "this.birthYear" THIS JE SETOVANO PO OBJEKTU KOJI POZIVA METODU
 luka.calcAge();
 pavle.calcAge();
-Person.prototype.species = 'Homo Sapiens';  //SVI OBJEKTI KREIRANI OD PERSON DOBIJU SVOJSTVO "SPECIES"
+Person.prototype.species = 'Homo Sapiens';  //SVI OBJEKTI KREIRANI OD PERSON MOGU DA KORISTE SVOJSTVO "SPECIES"
 console.log(luka.species,pavle);
 
 console.log(luka.__proto__); // PROTOTIP OD LUKA OBJEKTA SVE OSOBINE POPRIMLJENE OD KONSTRUKTOR FUNKCIJE(Person)
